@@ -5,26 +5,27 @@
 SmartSupplements is a **Minimal API built with ASP.NET Core**, simulating a fictional supplement company.  
 It includes:
 
-- 🛡️ JWT Authentication and Token Validation
-- 📦 Product management
-- 🧾 Order creation with multiple products
-- 🗃️ Repository and Service Layers for clean architecture
-- 🔁 Many-to-Many relationship (Orders ⇄ Products)
+- 🛡️ JWT Authentication and Token Validation  
+- 📦 Product management  
+- 🧾 Order creation with multiple products  
+- 🗃️ Repository and Service Layers for clean architecture  
+- 🔁 Many-to-Many relationship (Orders ⇄ Products)  
 
 This project follows **best practices** using:
-- Minimal APIs (no controllers)
-- Clean folder structure
-- Error handling and model validation
+
+- Minimal APIs (no controllers)  
+- Clean folder structure  
+- Error handling and model validation  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- ASP.NET Core 9 (Minimal API)
-- Entity Framework Core 9
-- SQLite
-- JWT Bearer Authentication
-- Swagger (OpenAPI)
+- ASP.NET Core 9 (Minimal API)  
+- Entity Framework Core 9  
+- SQLite  
+- JWT Bearer Authentication  
+- Swagger (OpenAPI)  
 
 ---
 
@@ -41,123 +42,95 @@ This project follows **best practices** using:
 
 ## 🚀 Features
 
-- ✅ User login with password hashing (BCrypt)
-- ✅ JWT token generation and validation
-- ✅ Create orders with multiple products and quantities
-- ✅ Calculates total price of orders automatically
-- ✅ List all orders and their associated products
-- ✅ Validations and error handling
-- ✅ Repository and Service Layer separation
+- ✅ User login with password hashing (BCrypt)  
+- ✅ JWT token generation and validation  
+- ✅ Create orders with multiple products and quantities  
+- ✅ Calculates total price of orders automatically  
+- ✅ List all orders and their associated products  
+- ✅ Validations and error handling  
+- ✅ Repository and Service Layer separation  
 
 ---
 
 ## ▶️ How to Run Locally
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/SmartSupplements.git
-   cd SmartSupplements
-Restore packages:
+```bash
+git clone https://github.com/SEU_USUARIO/SmartSupplements.git
+cd SmartSupplements
 
-bash
-Copiar
-Editar
 dotnet restore
-Apply migrations (if needed):
 
-bash
-Copiar
-Editar
 dotnet ef database update
-Run the app:
 
-bash
-Copiar
-Editar
 dotnet run
-Access Swagger at:
 
-bash
-Copiar
-Editar
-https://localhost:PORT/swagger
+
+
 📚 Descrição (PT-BR)
-SmartSupplements é uma Minimal API em ASP.NET Core que simula uma empresa fictícia de suplementos.
-Ela possui:
+SmartSupplements é uma Minimal API desenvolvida com ASP.NET Core, simulando uma empresa fictícia de suplementos alimentares.
+Ela inclui:
 
-🛡️ Login com autenticação JWT e validação de token
+🛡️ Autenticação via JWT e validação de token
 
-📦 Sistema de produtos
+📦 Gerenciamento de produtos
 
 🧾 Criação de pedidos com múltiplos produtos e quantidades
 
-🗃️ Arquitetura com repositórios, serviços e Program.cs
+🗃️ Camadas de Repositório e Serviço para manter uma arquitetura limpa
 
-🔧 Tecnologias Utilizadas
+🔁 Relacionamento muitos-para-muitos (Pedidos ⇄ Produtos)
+
+🛠️ Tecnologias Utilizadas
 ASP.NET Core 9 (Minimal API)
 
 Entity Framework Core 9
 
 SQLite
 
-JWT Bearer Authentication
+Autenticação JWT Bearer
 
 Swagger (OpenAPI)
 
 🧩 Estrutura do Banco de Dados
 Tabela	Descrição
-Usuarios	Armazena usuários e papéis (roles)
-Produtos	Armazena os dados dos produtos
+Usuarios	Armazena usuários e seus papéis (roles)
+Produtos	Armazena informações dos produtos
 Pedidos	Armazena os pedidos realizados
 PedidosProdutos	Tabela intermediária (produto + quantidade)
 
-✅ Funcionalidades
-Login com criptografia de senha (BCrypt)
+🚀 Funcionalidades
+✅ Login com criptografia de senha usando BCrypt
 
-Geração e validação de tokens JWT
+✅ Geração e validação de tokens JWT
 
-Criação de pedidos com vários produtos
+✅ Criação de pedidos com vários produtos e quantidades
 
-Cálculo automático do valor total do pedido
+✅ Cálculo automático do valor total do pedido
 
-Listagem de pedidos com seus respectivos produtos
+✅ Listagem de pedidos e seus respectivos produtos
 
-Validações de entrada e tratamento de erros
+✅ Validações e tratamento de erros
 
-Separação em camadas: Service, Repository, Models
+✅ Camadas separadas: Serviço, Repositório e Models
 
 ▶️ Como Rodar Localmente
-Clone o repositório:
-
 bash
 Copiar
 Editar
 git clone https://github.com/SEU_USUARIO/SmartSupplements.git
 cd SmartSupplements
-Restaure os pacotes:
 
-bash
-Copiar
-Editar
 dotnet restore
-Aplique as migrations (se necessário):
 
-bash
-Copiar
-Editar
 dotnet ef database update
-Rode o projeto:
 
-bash
-Copiar
-Editar
 dotnet run
-Acesse o Swagger:
+Depois, acesse:
 
 bash
 Copiar
 Editar
 https://localhost:PORT/swagger
-
 📌 Autor
 Desenvolvido por Gabriel Alexandre
+
