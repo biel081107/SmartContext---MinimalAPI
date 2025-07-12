@@ -113,7 +113,7 @@ PedidosProdutos	Tabela intermediária (produto + quantidade)
 ✅ Camadas separadas: Serviço, Repositório e Models
 
 ▶️ Como Rodar Localmente
-bash
+```bash
 Copiar
 Editar
 git clone https://github.com/SEU_USUARIO/SmartSupplements.git
@@ -124,12 +124,12 @@ dotnet restore
 dotnet ef database update
 
 dotnet run
-Depois, acesse:
 
-bash
-Copiar
-Editar
-https://localhost:PORT/swagger
+
+```
+Depois, acesse: https://localhost:PORT/swagger
+
+
 📌 Autor
 Desenvolvido por Gabriel Alexandre
 
