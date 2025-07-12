@@ -63,8 +63,7 @@ dotnet restore
 dotnet ef database update
 
 dotnet run
-
-
+```
 
 📚 Descrição (PT-BR)
 SmartSupplements é uma Minimal API desenvolvida com ASP.NET Core, simulando uma empresa fictícia de suplementos alimentares.
