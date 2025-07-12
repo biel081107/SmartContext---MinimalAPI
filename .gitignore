@@ -1,0 +1,9 @@
+# Ignore pastas e arquivos que não precisam ir pro GitHub
+bin/
+obj/
+*.db
+*.user
+*.suo
+*.log
+.vscode/
+.env

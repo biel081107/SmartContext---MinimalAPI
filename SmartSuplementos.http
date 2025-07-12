@@ -1,0 +1,6 @@
+@SmartSuplementos_HostAddress = http://localhost:5098
+
+GET {{SmartSuplementos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
